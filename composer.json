@@ -1,12 +1,13 @@
 {
-    "name": "imonroe/mime-utils",
+    "name": "imonroe/mimeutils",
     "type": "library",
     "description": "A helper for working with MIME types, particularly for validating uploads.",
     "keywords": [
         "imonroe",
-        "mime-utils"
+        "mimeutils",
+        "mimetypes"
     ],
-    "homepage": "https://github.com/imonroe/mime-utils",
+    "homepage": "https://github.com/imonroe/mimeutils",
     "license": "MIT",
     "authors": [
         {
@@ -26,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "imonroe\\mime-utils\\": "src"
+            "imonroe\\mimeutils\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "imonroe\\mime-utils\\": "tests"
+            "imonroe\\mimeutils\\": "tests"
         }
     },
     "scripts": {
